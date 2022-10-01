@@ -28,6 +28,3 @@ RUN tar -xzf hugo-${HUGO_VERSION}.tar.gz && \
     #ls /usr/local/bin/ && \
     ln -s /usr/local/bin/hugo-${HUGO_VERSION} /usr/local/bin/hugo
 
-# Copy in script
-#COPY build-site.sh /root/build-site.sh
-#RUN chmod +x /root/build-site.sh
